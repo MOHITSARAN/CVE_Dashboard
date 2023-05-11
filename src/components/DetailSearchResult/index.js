@@ -30,7 +30,7 @@ const DetailSearchResult = (props) => {
 		item_obj = props.detailsview;
 		id = item_obj.id;
 		summary = item_obj.summary;
-		solutions = item_obj.capec[0].solutions;
+		solutions = item_obj?.capec[0]?.solutions;
 		cvss = <GetScoreColor item={item_obj.cvss} />;
 		published = item_obj.Published;
 		modified = item_obj.Modified;
