@@ -19,7 +19,7 @@ export default function NavBar() {
 					<Navbar.Text>
 						<div className="links">
 							<Button color="inherit">
-								<Link to="/" style={{ paddingRight: "15px" }}>
+								<Link to="/cve" style={{ paddingRight: "15px" }}>
 									<i className="fas fa-search"></i> CVE Search
 								</Link>
 							</Button>

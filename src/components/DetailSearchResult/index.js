@@ -10,6 +10,7 @@ const DetailSearchResult = (props) => {
 	var item_obj = "None";
 	var id = "None";
 	var summary = "None";
+	var solutions = "None";
 	var cvss = "None";
 	var published = "None";
 	var modified = "None";
@@ -27,9 +28,9 @@ const DetailSearchResult = (props) => {
 
 	if (props.search === true) {
 		item_obj = props.detailsview;
-
 		id = item_obj.id;
 		summary = item_obj.summary;
+		solutions = item_obj.capec[0].solutions;
 		cvss = <GetScoreColor item={item_obj.cvss} />;
 		published = item_obj.Published;
 		modified = item_obj.Modified;
@@ -58,6 +59,10 @@ const DetailSearchResult = (props) => {
 				<tr>
 					<td>Summary</td>
 					<td>{summary}</td>
+				</tr>
+				<tr>
+					<td>Solutions</td>
+					<td>{solutions}</td>
 				</tr>
 				<tr>
 					<td>Details</td>

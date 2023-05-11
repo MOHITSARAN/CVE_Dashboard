@@ -5,7 +5,7 @@ import OwapsTop from "./OwapsTop";
 
 const Routers = () => (
 	<Switch>
-		<Route path="/" component={CveDashboard} />
+		<Route path="/cve" component={CveDashboard} />
 		<Route path="/owaps_top" component={OwapsTop} />
 	</Switch>
 );

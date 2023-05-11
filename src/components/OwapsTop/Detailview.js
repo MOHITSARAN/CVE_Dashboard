@@ -42,6 +42,7 @@ const GetReferencesURL = (props) => {
 const DetailView = (props) => {
 	var risks = "None";
 	var summary = "None";
+	var solutions = "None";
 	var item_obj = "None";
 
 	var exploitability = "None";
@@ -64,6 +65,7 @@ const DetailView = (props) => {
 
 		risks = item_obj.risks;
 		summary = item_obj.summary;
+		solutions = item_obj.solutions;
 
 		exploitability = item_obj.exploitability;
 		detectability = item_obj.detectability;
@@ -93,6 +95,9 @@ const DetailView = (props) => {
 				</tr>
 				<tr>
 					<td colSpan="2">{summary}</td>
+				</tr>
+				<tr>
+					<td colSpan="2">{solutions}</td>
 				</tr>
 				<tr>
 					<td colSpan="2">
