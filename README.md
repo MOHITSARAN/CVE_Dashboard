@@ -1,7 +1,7 @@
 # Common Vulnerabilities and Exposures Dashboard
 Common Vulnerabilities and Exposures (CVE) is a list of publicly disclosed information security vulnerabilities and exposures.
 
-### Open API: https://cve.circl.lu/api/last/30 & https://cve.circl.lu/api/cve/"CVE"
+### Open API: https://cve.circl.lu/api/last/30 & https://cve.circl.lu/api/cve/{cve_id}
 
 Installation:
 npm install --force
