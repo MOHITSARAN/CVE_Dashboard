@@ -11,3 +11,6 @@ npm run start
 
 Build:
 npm run build
+
+![alt text](https://github.com/MOHITSARAN/CVE_Dashboard/blob/main/public/assets/screen1.png)
+![alt text](https://github.com/MOHITSARAN/CVE_Dashboard/blob/main/public/assets/screen2.png)
